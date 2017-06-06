@@ -1,3 +1,7 @@
+# Directories
+bin/
+build/
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,6 @@
 *.exe
 *.out
 *.app
+
+# Miscellanous
+*.pdf
