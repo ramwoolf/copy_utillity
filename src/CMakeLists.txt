@@ -5,7 +5,7 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/..)
 set(INSTALL_NAME_DIR ${CMAKE_INSTALL_PREFIX}/bin)
 set(SRC_DIR ${PROJECT_SOURCE_DIR})
 
-list(APPEND SRC ${SRC_DIR}/main.cpp)
+file(GLOB SRC "${SRC_DIR}/*.cpp")
 
 add_definitions(-Wall -Werror -std=c++14)
 
